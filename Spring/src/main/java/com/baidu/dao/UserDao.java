@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 @Repository
 public class UserDao {
-    private JdbcTemplate jdbcTemplate;;
+    private JdbcTemplate jdbcTemplate;
     @Autowired
     public void setJdbcTemplate(JdbcTemplate jdbcTemplate){
         this.jdbcTemplate = jdbcTemplate;
